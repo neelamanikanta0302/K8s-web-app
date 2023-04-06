@@ -629,9 +629,9 @@ p {
 .home-heading {
     font-family: 'Exo', sans-serif;
     font-weight: 700;
-    letter-spacing: 0px;
+    letter-spacing: 8px;
     text-transform: uppercase;
-    color: #fff;
+    color: #0c0c0c;
 }
 @media (min-width:992px) {
     .home-heading {
@@ -2888,6 +2888,36 @@ footer a:hover {
  
     margin-top: 24px; 
     text-transform: uppercase;
+    -webkit-transition: all ease .3s;
+    -moz-transition: all ease .3s;
+    -o-transition: all ease .3s;
+    -ms-transition: all ease .3s;
+    transition: all ease .3s;
+}
+.btn-head {
+    font-family: 'Exo', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 4px;
+    color: #0a0a0a;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    margin: 0 5px 0 5px;
+    padding: 10px 22px;
+    text-align: center;
+
+    box-shadow: 0 -3px rgba(0, 0, 0, 0.3) inset;
+    -moz-box-shadow: 0 -3px rgba(0, 0, 0, 0.3) inset;
+    -webkit-box-shadow: 0 -3px rgba(0, 0, 0, 0.3) inset;
+    -o-box-shadow: 0 -3px rgba(0, 0, 0, 0.3) inset;
+    
     -webkit-transition: all ease .3s;
     -moz-transition: all ease .3s;
     -o-transition: all ease .3s;
